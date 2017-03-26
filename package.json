@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "description": "Personal Push Service message channel for devices",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Szőke Károly",
+  "license": "BSD",
+  "dependencies": {
+    "express": "~4.13.3",
+    "socket.io": "~1.3.6"
+  }
+}
